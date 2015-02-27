@@ -1,0 +1,7 @@
+{
+  "name": "census_jsonify",
+  "version": "0.0.1",
+  "dependencies": {
+    "line-reader": "latest"
+  }
+}
