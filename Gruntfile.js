@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 		},
 		webpack: {
 			app: {
-				entry: [ './src/main.js' ],
+				entry: [ 'jsx!./src/main.jsx' ],
 				output: {
 					path: './build',
 					filename: 'app.js',
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 		'webpack-dev-server': {
 			app: {
 				webpack: {
-					entry: [ 'webpack/hot/dev-server', './src/main.js' ],
+					entry: [ 'webpack/hot/dev-server', 'jsx!./src/main.jsx' ],
 					output: {
 						path: './build',
 						filename: 'app.js',
