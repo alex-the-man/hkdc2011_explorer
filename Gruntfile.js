@@ -1,51 +1,47 @@
+var WebPack = require("webpack");
+var entryJsPath = "jsx!./src/main.jsx";
+var buildDirPath = "./build";
+var bundledJsName = "app.js"
+
 module.exports = function(grunt) {
-	var WebPack = require("webpack");
-	
 	grunt.initConfig({
-		pkg: grunt.file.readJSON('package.json'),
-		copy: {
-			app: {
-				src: './src/index.html',
-				dest: './build/index.html'
-			}
-		},
+		pkg: grunt.file.readJSON("package.json"),
 		webpack: {
 			app: {
-				entry: [ 'jsx!./src/main.jsx' ],
+				entry: [ entryJsPath ],
 				output: {
-					path: './build',
-					filename: 'app.js',
+					path: buildDirPath,
+					filename: bundledJsName,
 				},
 				plugins: [
 					new WebPack.optimize.UglifyJsPlugin()
 				],
 			}
 		},
-		'webpack-dev-server': {
+		"webpack-dev-server": {
 			app: {
 				webpack: {
-					entry: [ 'webpack/hot/dev-server', 'jsx!./src/main.jsx' ],
+					entry: [ "webpack/hot/dev-server", entryJsPath ],
 					output: {
-						path: './build',
-						filename: 'app.js',
+						path: buildDirPath,
+						filename: bundledJsName,
 					},
 					plugins: [
 						new WebPack.HotModuleReplacementPlugin()
 					],
+					devtool: "eval",
 				},
-				contentBase: "./build",
 				hot: true,
-				keepAlive: true
+				keepAlive: true,
 			}
 		},
-		clean: ['./build']
+		clean: [ bundledJsName ]
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-webpack');
+	grunt.loadNpmTasks("grunt-contrib-clean");
+	grunt.loadNpmTasks("grunt-webpack");
 	
-	grunt.registerTask('server', ['copy', 'webpack-dev-server']);
-	grunt.registerTask('build', ['copy', 'webpack']);
-	grunt.registerTask('default', ['build']);
+	grunt.registerTask("server", ["webpack-dev-server"]);
+	grunt.registerTask("build", ["webpack"]);
+	grunt.registerTask("default", ["build"]);
 };
