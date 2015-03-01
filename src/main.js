@@ -1,6 +1,7 @@
 require('script!../deps/zepto.min.js');
 
 var topojson = require('topojson');
+var React = require('react');
 
 function moveTooltip(x, y) {
 	var tooltipDiv = $('#tooltip');
