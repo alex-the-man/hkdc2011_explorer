@@ -1,0 +1,74 @@
+{
+  "A": {
+    "E": "Central and Western",
+    "T": "中西區"
+  },
+  "C": {
+    "E": "Eastern",
+    "T": "東區"
+  },
+  "B": {
+    "E": "Wan Chai",
+    "T": "灣仔區"
+  },
+  "E": {
+    "E": "Yau Tsim Mong",
+    "T": "油尖旺區"
+  },
+  "D": {
+    "E": "Southern",
+    "T": "南區"
+  },
+  "G": {
+    "E": "Kowloon City",
+    "T": "九龍城區"
+  },
+  "F": {
+    "E": "Sham Shui Po",
+    "T": "深水埗區"
+  },
+  "H": {
+    "E": "Wong Tai Sin",
+    "T": "黃大仙區"
+  },
+  "K": {
+    "E": "Tsuen Wan",
+    "T": "荃灣區"
+  },
+  "J": {
+    "E": "Kwun Tong",
+    "T": "觀塘區"
+  },
+  "M": {
+    "E": "Yuen Long",
+    "T": "元朗區"
+  },
+  "L": {
+    "E": "Tuen Mun",
+    "T": "屯門區"
+  },
+  "N": {
+    "E": "North",
+    "T": "北區"
+  },
+  "Q": {
+    "E": "Sai Kung",
+    "T": "西貢區"
+  },
+  "P": {
+    "E": "Tai Po",
+    "T": "大埔區"
+  },
+  "S": {
+    "E": "Kwai Tsing",
+    "T": "葵青區"
+  },
+  "R": {
+    "E": "Sha Tin",
+    "T": "沙田區"
+  },
+  "T": {
+    "E": "Islands",
+    "T": "離島區"
+  }
+}

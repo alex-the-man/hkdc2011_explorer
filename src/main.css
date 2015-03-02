@@ -1,0 +1,67 @@
+.panel {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	background: #ddd;
+	color: #000;
+	border: 1px solid #aaa;
+	padding: 2px 2px;
+	transition: 0.1s ease-in-out;
+}
+
+.autoHideShown {
+	-ms-transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+.autoHideHidden {
+	-ms-transform: translate(-100%, -50%) translate(1.5em, 0);
+	-webkit-transform: translate(-100%, -50%) translate(1.5em, 0);
+	transform: translate(-100%, -50%) translate(1.5em, 0);
+}
+
+.toolTip {
+	position: absolute;
+	z-index: 1;
+	background-color: #FFF;
+	padding: 2px;
+	border-width: 1px;
+	border-style: solid;
+	pointer-events: none;
+}
+
+.checkboxAsButton {
+	display: flex;
+	align-items: center;
+}
+
+.checkboxAsButton input {
+	display: none;
+}
+
+.checkboxAsButton span {
+	text-align: right;
+	flex-grow: 1;
+	background-color: #e0e0e0;
+	border-radius: 2px;
+  text-decoration: none;
+	letter-spacing: 0.01em;
+	padding: 2px 4px;
+}
+
+.checkboxAsButton input:checked + span {
+	background-color: #d0d0d0;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+  text-decoration: none;
+}
+
+.checkboxAsButton input + span:hover  {
+	background-color: #e8e8e8;
+  text-decoration: none;
+}
+
+.checkboxAsButton input + span:active {
+	box-shadow: 0 0 0 2px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+  text-decoration: none;
+}

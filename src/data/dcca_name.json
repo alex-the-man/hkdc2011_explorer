@@ -1,0 +1,1650 @@
+{
+  "P03": {
+    "E": "Chung Ting",
+    "T": "頌汀"
+  },
+  "P02": {
+    "E": "Tai Po Central",
+    "T": "大埔中"
+  },
+  "P01": {
+    "E": "Tai Po Hui",
+    "T": "大埔墟"
+  },
+  "P07": {
+    "E": "Fu Ming Sun",
+    "T": "富明新"
+  },
+  "P06": {
+    "E": "Yee Fu",
+    "T": "怡富"
+  },
+  "P05": {
+    "E": "Fu Heng",
+    "T": "富亨"
+  },
+  "P04": {
+    "E": "Tai Yuen",
+    "T": "大元"
+  },
+  "P09": {
+    "E": "Wang Fuk",
+    "T": "宏福"
+  },
+  "P08": {
+    "E": "Kwong Fuk & Plover Cove",
+    "T": "廣福及寶湖"
+  },
+  "R16": {
+    "E": "Tin Sum",
+    "T": "田心"
+  },
+  "R17": {
+    "E": "Chui Ka",
+    "T": "翠嘉"
+  },
+  "R14": {
+    "E": "Lower Shing Mun",
+    "T": "下城門"
+  },
+  "R15": {
+    "E": "Keng Hau",
+    "T": "徑口"
+  },
+  "R12": {
+    "E": "Chui Tin",
+    "T": "翠田"
+  },
+  "R13": {
+    "E": "Hin Ka",
+    "T": "顯嘉"
+  },
+  "R10": {
+    "E": "Chun Fung",
+    "T": "秦豐"
+  },
+  "R11": {
+    "E": "Sun Tin Wai",
+    "T": "新田圍"
+  },
+  "R18": {
+    "E": "Tai Wai",
+    "T": "大圍"
+  },
+  "R19": {
+    "E": "Chung Tin",
+    "T": "松田"
+  },
+  "J11": {
+    "E": "Po Tat",
+    "T": "寶達"
+  },
+  "C08": {
+    "E": "Tsui Wan",
+    "T": "翠灣"
+  },
+  "C09": {
+    "E": "Yan Lam",
+    "T": "欣藍"
+  },
+  "H11": {
+    "E": "Wang Tau Hom",
+    "T": "橫頭磡"
+  },
+  "C01": {
+    "E": "Tai Koo Shing West",
+    "T": "太古城西"
+  },
+  "C02": {
+    "E": "Tai Koo Shing East",
+    "T": "太古城東"
+  },
+  "C03": {
+    "E": "Lei King Wan",
+    "T": "鯉景灣"
+  },
+  "C04": {
+    "E": "Aldrich Bay",
+    "T": "愛秩序灣"
+  },
+  "C05": {
+    "E": "Shaukeiwan",
+    "T": "筲箕灣"
+  },
+  "C06": {
+    "E": "A Kung Ngam",
+    "T": "阿公岩"
+  },
+  "C07": {
+    "E": "Heng Fa Chuen",
+    "T": "杏花邨"
+  },
+  "J27": {
+    "E": "Po Lok",
+    "T": "寶樂"
+  },
+  "J26": {
+    "E": "Tsui Ping",
+    "T": "翠屏"
+  },
+  "J25": {
+    "E": "King Tin",
+    "T": "景田"
+  },
+  "J24": {
+    "E": "Laguna City",
+    "T": "麗港城"
+  },
+  "J23": {
+    "E": "Yau Tong West",
+    "T": "油塘西"
+  },
+  "J22": {
+    "E": "Chui Cheung",
+    "T": "翠翔"
+  },
+  "J21": {
+    "E": "Yau Lai",
+    "T": "油麗"
+  },
+  "J20": {
+    "E": "Yau Tong East",
+    "T": "油塘東"
+  },
+  "J29": {
+    "E": "Hip Hong",
+    "T": "協康"
+  },
+  "J28": {
+    "E": "Yuet Wah",
+    "T": "月華"
+  },
+  "G22": {
+    "E": "Oi Chun",
+    "T": "愛俊"
+  },
+  "G20": {
+    "E": "Ka Wai",
+    "T": "家維"
+  },
+  "G21": {
+    "E": "Oi Man",
+    "T": "愛民"
+  },
+  "M31": {
+    "E": "Pat Heung South",
+    "T": "八鄉南"
+  },
+  "M30": {
+    "E": "Pat Heung North",
+    "T": "八鄉北"
+  },
+  "L21": {
+    "E": "San King",
+    "T": "新景"
+  },
+  "Q14": {
+    "E": "Tsui Lam",
+    "T": "翠林"
+  },
+  "Q17": {
+    "E": "Wan Hang",
+    "T": "運亨"
+  },
+  "L22": {
+    "E": "Leung King",
+    "T": "良景"
+  },
+  "Q11": {
+    "E": "Fu Kwan",
+    "T": "富君"
+  },
+  "L24": {
+    "E": "Po Tin",
+    "T": "寶田"
+  },
+  "Q13": {
+    "E": "Hong King",
+    "T": "康景"
+  },
+  "L26": {
+    "E": "Siu Hong",
+    "T": "兆康"
+  },
+  "L29": {
+    "E": "Tuen Mun Rural",
+    "T": "屯門鄉郊"
+  },
+  "L28": {
+    "E": "Fu Tai",
+    "T": "富泰"
+  },
+  "Q19": {
+    "E": "Hau Tak",
+    "T": "厚德"
+  },
+  "Q18": {
+    "E": "King Lam",
+    "T": "景林"
+  },
+  "S08": {
+    "E": "On Yam",
+    "T": "安蔭"
+  },
+  "S09": {
+    "E": "Shek Lei Extension",
+    "T": "新石籬"
+  },
+  "S01": {
+    "E": "Kwai Hing",
+    "T": "葵興"
+  },
+  "S02": {
+    "E": "Kwai Shing East Estate",
+    "T": "葵盛東邨"
+  },
+  "S03": {
+    "E": "Upper Tai Wo Hau",
+    "T": "上大窩口"
+  },
+  "S04": {
+    "E": "Lower Tai Wo Hau",
+    "T": "下大窩口"
+  },
+  "S05": {
+    "E": "Kwai Chung Estate North",
+    "T": "葵涌邨北"
+  },
+  "S06": {
+    "E": "Kwai Chung Estate Central",
+    "T": "葵涌邨中"
+  },
+  "S07": {
+    "E": "Shek Yam",
+    "T": "石蔭"
+  },
+  "F05": {
+    "E": "Nam Cheong South",
+    "T": "南昌南"
+  },
+  "F04": {
+    "E": "Shek Kip Mei & Nam Cheong East",
+    "T": "石硤尾及南昌東"
+  },
+  "F07": {
+    "E": "Nam Cheong West",
+    "T": "南昌西"
+  },
+  "F06": {
+    "E": "Nam Cheong Central",
+    "T": "南昌中"
+  },
+  "F01": {
+    "E": "Po Lai",
+    "T": "寶麗"
+  },
+  "F03": {
+    "E": "Nam Cheong North",
+    "T": "南昌北"
+  },
+  "F02": {
+    "E": "Cheung Sha Wan",
+    "T": "長沙灣"
+  },
+  "F09": {
+    "E": "Lai Kok",
+    "T": "麗閣"
+  },
+  "F08": {
+    "E": "Fu Cheong",
+    "T": "富昌"
+  },
+  "H18": {
+    "E": "Ching On",
+    "T": "正安"
+  },
+  "K01": {
+    "E": "Tak Wah",
+    "T": "德華"
+  },
+  "K02": {
+    "E": "Yeung Uk Road",
+    "T": "楊屋道"
+  },
+  "K03": {
+    "E": "Hoi Bun",
+    "T": "海濱"
+  },
+  "K04": {
+    "E": "Clague Garden",
+    "T": "祈德尊"
+  },
+  "K05": {
+    "E": "Fuk Loi",
+    "T": "福來"
+  },
+  "K06": {
+    "E": "Discovery Park",
+    "T": "愉景"
+  },
+  "K07": {
+    "E": "Tsuen Wan Centre",
+    "T": "荃灣中心"
+  },
+  "K08": {
+    "E": "Allway",
+    "T": "荃威"
+  },
+  "K09": {
+    "E": "Lai To",
+    "T": "麗濤"
+  },
+  "H12": {
+    "E": "Tin Keung",
+    "T": "天強"
+  },
+  "H13": {
+    "E": "Tsui Chuk & Pang Ching",
+    "T": "翠竹及鵬程"
+  },
+  "H14": {
+    "E": "Chuk Yuen South",
+    "T": "竹園南"
+  },
+  "H15": {
+    "E": "Chuk Yuen North",
+    "T": "竹園北"
+  },
+  "H16": {
+    "E": "Tsz Wan West",
+    "T": "慈雲西"
+  },
+  "H17": {
+    "E": "Ching Oi",
+    "T": "正愛"
+  },
+  "R29": {
+    "E": "Yiu On",
+    "T": "耀安"
+  },
+  "R28": {
+    "E": "Kam Ying",
+    "T": "錦英"
+  },
+  "R27": {
+    "E": "Fu Lung",
+    "T": "富龍"
+  },
+  "R26": {
+    "E": "Lee On",
+    "T": "利安"
+  },
+  "R25": {
+    "E": "Ma On Shan Town Centre",
+    "T": "馬鞍山市中心"
+  },
+  "R24": {
+    "E": "Kam To",
+    "T": "錦濤"
+  },
+  "R23": {
+    "E": "Chung On",
+    "T": "頌安"
+  },
+  "R22": {
+    "E": "Chun Ma",
+    "T": "駿馬"
+  },
+  "R21": {
+    "E": "Fo Tan",
+    "T": "火炭"
+  },
+  "R20": {
+    "E": "Sui Wo",
+    "T": "穗禾"
+  },
+  "G19": {
+    "E": "Hung Hom",
+    "T": "紅磡"
+  },
+  "G18": {
+    "E": "Hung Hom Bay",
+    "T": "紅磡灣"
+  },
+  "G17": {
+    "E": "Whampoa West",
+    "T": "黃埔西"
+  },
+  "G16": {
+    "E": "Whampoa East",
+    "T": "黃埔東"
+  },
+  "G15": {
+    "E": "Hok Yuen Laguna Verde",
+    "T": "鶴園海逸"
+  },
+  "G14": {
+    "E": "To Kwa Wan South",
+    "T": "土瓜灣南"
+  },
+  "G13": {
+    "E": "To Kwa Wan North",
+    "T": "土瓜灣北"
+  },
+  "G12": {
+    "E": "Hoi Sham",
+    "T": "海心"
+  },
+  "G11": {
+    "E": "Kai Tak",
+    "T": "啓德"
+  },
+  "G10": {
+    "E": "Lung Shing",
+    "T": "龍城"
+  },
+  "A08": {
+    "E": "Sai Wan",
+    "T": "西環"
+  },
+  "A09": {
+    "E": "Belcher",
+    "T": "寶翠"
+  },
+  "A02": {
+    "E": "Mid Levels East",
+    "T": "半山東"
+  },
+  "A03": {
+    "E": "Castle Road",
+    "T": "衛城"
+  },
+  "A01": {
+    "E": "Chung Wan",
+    "T": "中環"
+  },
+  "A06": {
+    "E": "Kennedy Town & Mount Davis",
+    "T": "堅摩"
+  },
+  "A07": {
+    "E": "Kwun Lung",
+    "T": "觀龍"
+  },
+  "A04": {
+    "E": "Peak",
+    "T": "山頂"
+  },
+  "A05": {
+    "E": "University",
+    "T": "大學"
+  },
+  "P10": {
+    "E": "Tai Po Kau",
+    "T": "大埔滘"
+  },
+  "P11": {
+    "E": "Wan Tau Tong",
+    "T": "運頭塘"
+  },
+  "P12": {
+    "E": "San Fu",
+    "T": "新富"
+  },
+  "P13": {
+    "E": "Lam Tsuen Valley",
+    "T": "林村谷"
+  },
+  "P14": {
+    "E": "Po Nga",
+    "T": "寶雅"
+  },
+  "N08": {
+    "E": "Sheung Shui Rural",
+    "T": "上水鄉郊"
+  },
+  "P16": {
+    "E": "Old Market & Serenity",
+    "T": "舊墟及太湖"
+  },
+  "P17": {
+    "E": "Hong Lok Yuen",
+    "T": "康樂園"
+  },
+  "N05": {
+    "E": "Wah Ming",
+    "T": "華明"
+  },
+  "N04": {
+    "E": "Wah Do",
+    "T": "華都"
+  },
+  "N07": {
+    "E": "Shing Fuk",
+    "T": "盛褔"
+  },
+  "N06": {
+    "E": "Yan Shing",
+    "T": "欣盛"
+  },
+  "N01": {
+    "E": "Luen Wo Hui",
+    "T": "聯和墟"
+  },
+  "N03": {
+    "E": "Cheung Wah",
+    "T": "祥華"
+  },
+  "N02": {
+    "E": "Fanling Town",
+    "T": "粉嶺市"
+  },
+  "C35": {
+    "E": "Tsui Tak",
+    "T": "翠德"
+  },
+  "C34": {
+    "E": "Lok Hong",
+    "T": "樂康"
+  },
+  "C37": {
+    "E": "Kai Hiu",
+    "T": "佳曉"
+  },
+  "C36": {
+    "E": "Yue Wan",
+    "T": "漁灣"
+  },
+  "C31": {
+    "E": "Lower Yiu Tung",
+    "T": "下耀東"
+  },
+  "C30": {
+    "E": "Sai Wan Ho",
+    "T": "西灣河"
+  },
+  "C33": {
+    "E": "Hing Man",
+    "T": "興民"
+  },
+  "C32": {
+    "E": "Upper Yiu Tung",
+    "T": "上耀東"
+  },
+  "K11": {
+    "E": "Tsuen Wan Rural West",
+    "T": "荃灣郊區西"
+  },
+  "J34": {
+    "E": "Lok Wah North",
+    "T": "樂華北"
+  },
+  "J35": {
+    "E": "Lok Wah South",
+    "T": "樂華南"
+  },
+  "H08": {
+    "E": "Tung Tau",
+    "T": "東頭"
+  },
+  "J30": {
+    "E": "Hong Lok",
+    "T": "康樂"
+  },
+  "J31": {
+    "E": "Ting On",
+    "T": "定安"
+  },
+  "J32": {
+    "E": "Ngau Tau Kok",
+    "T": "牛頭角"
+  },
+  "J33": {
+    "E": "To Tai",
+    "T": "淘大"
+  },
+  "M28": {
+    "E": "San Tin",
+    "T": "新田"
+  },
+  "M29": {
+    "E": "Kam Tin",
+    "T": "錦田"
+  },
+  "M24": {
+    "E": "Tin Yiu",
+    "T": "天耀"
+  },
+  "M25": {
+    "E": "Kingswood South",
+    "T": "嘉湖南"
+  },
+  "M26": {
+    "E": "Chung Pak",
+    "T": "頌栢"
+  },
+  "M27": {
+    "E": "Fairview Park",
+    "T": "錦綉花園"
+  },
+  "M20": {
+    "E": "Wang Yat",
+    "T": "宏逸"
+  },
+  "M21": {
+    "E": "Ching King",
+    "T": "晴景"
+  },
+  "M22": {
+    "E": "Kingswood North",
+    "T": "嘉湖北"
+  },
+  "M23": {
+    "E": "Tsz Yau",
+    "T": "慈祐"
+  },
+  "Q08": {
+    "E": "Kin Shin",
+    "T": "健善"
+  },
+  "Q09": {
+    "E": "Choi Kin",
+    "T": "彩健"
+  },
+  "Q02": {
+    "E": "Pak Sha Wan",
+    "T": "白沙灣"
+  },
+  "Q03": {
+    "E": "Sai Kung Islands",
+    "T": "西貢離島"
+  },
+  "Q01": {
+    "E": "Sai Kung Central",
+    "T": "西貢市中心"
+  },
+  "Q06": {
+    "E": "Po Kwan",
+    "T": "寶軍"
+  },
+  "Q07": {
+    "E": "Wai Do",
+    "T": "維都"
+  },
+  "Q04": {
+    "E": "Hang Hau East",
+    "T": "坑口東"
+  },
+  "Q05": {
+    "E": "Hang Hau West",
+    "T": "坑口西"
+  },
+  "D07": {
+    "E": "South Horizons West",
+    "T": "海怡西"
+  },
+  "D06": {
+    "E": "South Horizons East",
+    "T": "海怡東"
+  },
+  "D05": {
+    "E": "Lei Tung II",
+    "T": "利東二"
+  },
+  "D04": {
+    "E": "Lei Tung I",
+    "T": "利東一"
+  },
+  "D03": {
+    "E": "Ap Lei Chau North",
+    "T": "鴨脷洲北"
+  },
+  "D02": {
+    "E": "Ap Lei Chau Estate",
+    "T": "鴨脷洲邨"
+  },
+  "D01": {
+    "E": "Aberdeen",
+    "T": "香港仔"
+  },
+  "D09": {
+    "E": "Wah Fu I",
+    "T": "華富一"
+  },
+  "D08": {
+    "E": "Wah Kwai",
+    "T": "華貴"
+  },
+  "F18": {
+    "E": "Ha Pak Tin",
+    "T": "下白田"
+  },
+  "F19": {
+    "E": "Yau Yat Tsuen",
+    "T": "又一村"
+  },
+  "F12": {
+    "E": "Mei Foo South",
+    "T": "美孚南"
+  },
+  "F13": {
+    "E": "Mei Foo Central",
+    "T": "美孚中"
+  },
+  "F10": {
+    "E": "Fortune",
+    "T": "幸福"
+  },
+  "F11": {
+    "E": "Lai Chi Kok South",
+    "T": "荔枝角南"
+  },
+  "F16": {
+    "E": "Un Chau & So Uk",
+    "T": "元州及蘇屋"
+  },
+  "F17": {
+    "E": "Lei Cheng Uk",
+    "T": "李鄭屋"
+  },
+  "F14": {
+    "E": "Mei Foo North",
+    "T": "美孚北"
+  },
+  "F15": {
+    "E": "Lai Chi Kok North",
+    "T": "荔枝角北"
+  },
+  "H25": {
+    "E": "Choi Hung",
+    "T": "彩虹"
+  },
+  "H24": {
+    "E": "Chi Choi",
+    "T": "池彩"
+  },
+  "H21": {
+    "E": "Choi Wan East",
+    "T": "彩雲東"
+  },
+  "H20": {
+    "E": "King Fu",
+    "T": "瓊富"
+  },
+  "H23": {
+    "E": "Choi Wan West",
+    "T": "彩雲西"
+  },
+  "H22": {
+    "E": "Choi Wan South",
+    "T": "彩雲南"
+  },
+  "R34": {
+    "E": "Bik Woo",
+    "T": "碧湖"
+  },
+  "R35": {
+    "E": "Kwong Hong",
+    "T": "廣康"
+  },
+  "R36": {
+    "E": "Kwong Yuen",
+    "T": "廣源"
+  },
+  "R30": {
+    "E": "Heng On",
+    "T": "恒安"
+  },
+  "R31": {
+    "E": "On Tai",
+    "T": "鞍泰"
+  },
+  "R32": {
+    "E": "Tai Shui Hang",
+    "T": "大水坑"
+  },
+  "R33": {
+    "E": "Yu Yan",
+    "T": "愉欣"
+  },
+  "H19": {
+    "E": "Tsz Wan East",
+    "T": "慈雲東"
+  },
+  "M01": {
+    "E": "Fung Nin",
+    "T": "豐年"
+  },
+  "E11": {
+    "E": "Tai Kok Tsui North",
+    "T": "大角咀北"
+  },
+  "E10": {
+    "E": "Tai Kok Tsui South",
+    "T": "大角咀南"
+  },
+  "E13": {
+    "E": "Mong Kok North",
+    "T": "旺角北"
+  },
+  "E12": {
+    "E": "Tai Nan",
+    "T": "大南"
+  },
+  "E15": {
+    "E": "Mong Kok South",
+    "T": "旺角南"
+  },
+  "E14": {
+    "E": "Mong Kok East",
+    "T": "旺角東"
+  },
+  "E17": {
+    "E": "Tsim Sha Tsui East",
+    "T": "尖沙咀東"
+  },
+  "E16": {
+    "E": "King's Park",
+    "T": "京士柏"
+  },
+  "G08": {
+    "E": "Prince",
+    "T": "太子"
+  },
+  "G09": {
+    "E": "Kowloon Tong",
+    "T": "九龍塘"
+  },
+  "G04": {
+    "E": "Lok Man",
+    "T": "樂民"
+  },
+  "G05": {
+    "E": "Sheung Lok",
+    "T": "常樂"
+  },
+  "G06": {
+    "E": "Ho Man Tin",
+    "T": "何文田"
+  },
+  "G07": {
+    "E": "Kadoorie",
+    "T": "嘉道理"
+  },
+  "G01": {
+    "E": "Ma Tau Wai",
+    "T": "馬頭圍"
+  },
+  "G02": {
+    "E": "Ma Hang Chung",
+    "T": "馬坑涌"
+  },
+  "G03": {
+    "E": "Ma Tau Kok",
+    "T": "馬頭角"
+  },
+  "L09": {
+    "E": "King Hing",
+    "T": "景興"
+  },
+  "L08": {
+    "E": "Shan King",
+    "T": "山景"
+  },
+  "L07": {
+    "E": "Tsui Hing",
+    "T": "翠興"
+  },
+  "L06": {
+    "E": "Yau Oi North",
+    "T": "友愛北"
+  },
+  "L05": {
+    "E": "Yau Oi South",
+    "T": "友愛南"
+  },
+  "L04": {
+    "E": "On Ting",
+    "T": "安定"
+  },
+  "L03": {
+    "E": "Siu Tsui",
+    "T": "兆翠"
+  },
+  "L02": {
+    "E": "Siu Chi",
+    "T": "兆置"
+  },
+  "L01": {
+    "E": "Tuen Mun Town Centre",
+    "T": "屯門市中心"
+  },
+  "T07": {
+    "E": "Peng Chau & Hei Ling Chau",
+    "T": "坪洲及喜靈洲"
+  },
+  "T06": {
+    "E": "Discovery Bay",
+    "T": "愉景灣"
+  },
+  "T05": {
+    "E": "Tung Chung South",
+    "T": "東涌南"
+  },
+  "T04": {
+    "E": "Tung Chung North",
+    "T": "東涌北"
+  },
+  "T03": {
+    "E": "Yat Tung Estate South",
+    "T": "逸東邨南"
+  },
+  "T02": {
+    "E": "Yat Tung Estate North",
+    "T": "逸東邨北"
+  },
+  "T01": {
+    "E": "Lantau",
+    "T": "大嶼山"
+  },
+  "T09": {
+    "E": "Cheung Chau South",
+    "T": "長洲南"
+  },
+  "T08": {
+    "E": "Lamma & Po Toi",
+    "T": "南丫及蒲台"
+  },
+  "N12": {
+    "E": "Shek Wu Hui",
+    "T": "石湖墟"
+  },
+  "N13": {
+    "E": "Tin Ping West",
+    "T": "天平西"
+  },
+  "N10": {
+    "E": "Yu Tai",
+    "T": "御太"
+  },
+  "N11": {
+    "E": "Choi Yuen",
+    "T": "彩園"
+  },
+  "N16": {
+    "E": "Tin Ping East",
+    "T": "天平東"
+  },
+  "N17": {
+    "E": "Queen's Hill",
+    "T": "皇后山"
+  },
+  "N14": {
+    "E": "Fung Tsui",
+    "T": "鳳翠"
+  },
+  "N15": {
+    "E": "Sha Ta",
+    "T": "沙打"
+  },
+  "F21": {
+    "E": "Lung Ping & Sheung Pak Tin",
+    "T": "龍坪及上白田"
+  },
+  "F20": {
+    "E": "Nam Shan, Tai Hang Tung & Tai Hang Sai",
+    "T": "南山、大坑東及大坑西"
+  },
+  "H10": {
+    "E": "Lok Fu",
+    "T": "樂富"
+  },
+  "C22": {
+    "E": "Kam Ping",
+    "T": "錦屏"
+  },
+  "Q15": {
+    "E": "Po Lam",
+    "T": "寶林"
+  },
+  "C20": {
+    "E": "Provident",
+    "T": "和富"
+  },
+  "C21": {
+    "E": "Fort Street",
+    "T": "堡壘"
+  },
+  "C26": {
+    "E": "Nam Fung",
+    "T": "南豐"
+  },
+  "C27": {
+    "E": "Kornhill",
+    "T": "康怡"
+  },
+  "C24": {
+    "E": "Healthy Village",
+    "T": "健康村"
+  },
+  "C25": {
+    "E": "Quarry Bay",
+    "T": "鰂魚涌"
+  },
+  "C28": {
+    "E": "Kornhill Garden",
+    "T": "康山"
+  },
+  "C29": {
+    "E": "Hing Tung",
+    "T": "興東"
+  },
+  "L23": {
+    "E": "Tin King",
+    "T": "田景"
+  },
+  "Q16": {
+    "E": "Yan Ying",
+    "T": "欣英"
+  },
+  "L25": {
+    "E": "Kin Sang",
+    "T": "建生"
+  },
+  "Q10": {
+    "E": "O Tong",
+    "T": "澳唐"
+  },
+  "L27": {
+    "E": "Prime View",
+    "T": "景峰"
+  },
+  "Q12": {
+    "E": "Nam On",
+    "T": "南安"
+  },
+  "J09": {
+    "E": "Sheung Shun",
+    "T": "雙順"
+  },
+  "J08": {
+    "E": "Shun Tin",
+    "T": "順天"
+  },
+  "M13": {
+    "E": "Shui Oi",
+    "T": "瑞愛"
+  },
+  "M12": {
+    "E": "Tin Shing",
+    "T": "天盛"
+  },
+  "M15": {
+    "E": "Chung Wah",
+    "T": "頌華"
+  },
+  "M14": {
+    "E": "Shui Wah",
+    "T": "瑞華"
+  },
+  "M17": {
+    "E": "Fu Yan",
+    "T": "富恩"
+  },
+  "M16": {
+    "E": "Yuet Yan",
+    "T": "悅恩"
+  },
+  "J01": {
+    "E": "Kwun Tong Central",
+    "T": "觀塘中心"
+  },
+  "M18": {
+    "E": "Yat Chak",
+    "T": "逸澤"
+  },
+  "J03": {
+    "E": "Kai Yip",
+    "T": "啓業"
+  },
+  "J02": {
+    "E": "Kowloon Bay",
+    "T": "九龍灣"
+  },
+  "J05": {
+    "E": "Ping Shek",
+    "T": "坪石"
+  },
+  "J04": {
+    "E": "Lai Ching",
+    "T": "麗晶"
+  },
+  "J07": {
+    "E": "Jordan Valley",
+    "T": "佐敦谷"
+  },
+  "J06": {
+    "E": "Sheung Choi",
+    "T": "雙彩"
+  },
+  "C23": {
+    "E": "Tanner",
+    "T": "丹拿"
+  },
+  "L20": {
+    "E": "Lung Mun",
+    "T": "龍門"
+  },
+  "B01": {
+    "E": "Hennessy",
+    "T": "軒尼詩"
+  },
+  "B03": {
+    "E": "Canal Road",
+    "T": "鵝頸"
+  },
+  "B02": {
+    "E": "Oi Kwan",
+    "T": "愛群"
+  },
+  "B05": {
+    "E": "Tai Hang",
+    "T": "大坑"
+  },
+  "B04": {
+    "E": "Causeway Bay",
+    "T": "銅鑼灣"
+  },
+  "B07": {
+    "E": "Broadwood",
+    "T": "樂活"
+  },
+  "B06": {
+    "E": "Jardine's Lookout",
+    "T": "渣甸山"
+  },
+  "B09": {
+    "E": "Stubbs Road",
+    "T": "司徒拔道"
+  },
+  "B08": {
+    "E": "Happy Valley",
+    "T": "跑馬地"
+  },
+  "D14": {
+    "E": "Shek Yue",
+    "T": "石漁"
+  },
+  "D15": {
+    "E": "Wong Chuk Hang",
+    "T": "黃竹坑"
+  },
+  "D16": {
+    "E": "Bays Area",
+    "T": "海灣"
+  },
+  "D17": {
+    "E": "Stanley & Shek O",
+    "T": "赤柱及石澳"
+  },
+  "D10": {
+    "E": "Wah Fu II",
+    "T": "華富二"
+  },
+  "D11": {
+    "E": "Pokfulam",
+    "T": "薄扶林"
+  },
+  "D12": {
+    "E": "Chi Fu",
+    "T": "置富"
+  },
+  "D13": {
+    "E": "Tin Wan",
+    "T": "田灣"
+  },
+  "S22": {
+    "E": "Greenfield",
+    "T": "翠怡"
+  },
+  "S23": {
+    "E": "Cheung Ching",
+    "T": "長青"
+  },
+  "S20": {
+    "E": "Wai Ying",
+    "T": "偉盈"
+  },
+  "S21": {
+    "E": "Tsing Yi Estate",
+    "T": "青衣邨"
+  },
+  "S26": {
+    "E": "Tsing Yi South",
+    "T": "青衣南"
+  },
+  "S27": {
+    "E": "Cheung Hang",
+    "T": "長亨"
+  },
+  "S24": {
+    "E": "Cheung Hong",
+    "T": "長康"
+  },
+  "S25": {
+    "E": "Shing Hong",
+    "T": "盛康"
+  },
+  "N09": {
+    "E": "Ching Ho",
+    "T": "清河"
+  },
+  "S28": {
+    "E": "Ching Fat",
+    "T": "青發"
+  },
+  "S29": {
+    "E": "Cheung On",
+    "T": "長安"
+  },
+  "P15": {
+    "E": "Tai Wo",
+    "T": "太和"
+  },
+  "R01": {
+    "E": "Sha Tin Town Centre",
+    "T": "沙田市中心"
+  },
+  "R03": {
+    "E": "Wo Che Estate",
+    "T": "禾輋邨"
+  },
+  "R02": {
+    "E": "Lek Yuen",
+    "T": "瀝源"
+  },
+  "R05": {
+    "E": "Yue Shing",
+    "T": "愉城"
+  },
+  "R04": {
+    "E": "City One",
+    "T": "第一城"
+  },
+  "R07": {
+    "E": "Sha Kok",
+    "T": "沙角"
+  },
+  "R06": {
+    "E": "Wong Uk",
+    "T": "王屋"
+  },
+  "R09": {
+    "E": "Jat Min",
+    "T": "乙明"
+  },
+  "R08": {
+    "E": "Pok Hong",
+    "T": "博康"
+  },
+  "P18": {
+    "E": "Shuen Wan",
+    "T": "船灣"
+  },
+  "P19": {
+    "E": "Sai Kung North",
+    "T": "西貢北"
+  },
+  "C19": {
+    "E": "City Garden",
+    "T": "城市花園"
+  },
+  "C18": {
+    "E": "Victoria Park",
+    "T": "維園"
+  },
+  "C13": {
+    "E": "Fei Tsui",
+    "T": "翡翠"
+  },
+  "C12": {
+    "E": "Wan Tsui",
+    "T": "環翠"
+  },
+  "C11": {
+    "E": "King Yee",
+    "T": "景怡"
+  },
+  "C10": {
+    "E": "Siu Sai Wan",
+    "T": "小西灣"
+  },
+  "C17": {
+    "E": "Fortress Hill",
+    "T": "炮台山"
+  },
+  "C16": {
+    "E": "Tin Hau",
+    "T": "天后"
+  },
+  "C15": {
+    "E": "Braemar Hill",
+    "T": "寶馬山"
+  },
+  "C14": {
+    "E": "Mount Parker",
+    "T": "柏架山"
+  },
+  "M11": {
+    "E": "Ha Tsuen",
+    "T": "廈村"
+  },
+  "E08": {
+    "E": "Olympic",
+    "T": "奧運"
+  },
+  "E09": {
+    "E": "Cherry",
+    "T": "櫻桃"
+  },
+  "E06": {
+    "E": "Mong Kok West",
+    "T": "旺角西"
+  },
+  "E07": {
+    "E": "Fu Pak",
+    "T": "富柏"
+  },
+  "E04": {
+    "E": "Yau Ma Tei",
+    "T": "油麻地"
+  },
+  "E05": {
+    "E": "Charming",
+    "T": "富榮"
+  },
+  "E02": {
+    "E": "Jordan East",
+    "T": "佐敦東"
+  },
+  "E03": {
+    "E": "Jordan West",
+    "T": "佐敦西"
+  },
+  "E01": {
+    "E": "Tsim Sha Tsui West",
+    "T": "尖沙咀西"
+  },
+  "Q20": {
+    "E": "Fu Nam",
+    "T": "富藍"
+  },
+  "M19": {
+    "E": "Tin Heng",
+    "T": "天恒"
+  },
+  "Q22": {
+    "E": "Sheung Tak",
+    "T": "尚德"
+  },
+  "Q23": {
+    "E": "Kwong Ming",
+    "T": "廣明"
+  },
+  "Q24": {
+    "E": "Wan Po",
+    "T": "環保"
+  },
+  "J10": {
+    "E": "On Lee",
+    "T": "安利"
+  },
+  "L18": {
+    "E": "Butterfly",
+    "T": "蝴蝶"
+  },
+  "L19": {
+    "E": "Lok Tsui",
+    "T": "樂翠"
+  },
+  "L14": {
+    "E": "Fu Sun",
+    "T": "富新"
+  },
+  "L15": {
+    "E": "Yuet Wu",
+    "T": "悅湖"
+  },
+  "L16": {
+    "E": "Siu Hei",
+    "T": "兆禧"
+  },
+  "L17": {
+    "E": "Wu King",
+    "T": "湖景"
+  },
+  "L10": {
+    "E": "Hing Tsak",
+    "T": "興澤"
+  },
+  "L11": {
+    "E": "San Hui",
+    "T": "新墟"
+  },
+  "L12": {
+    "E": "Sam Shing",
+    "T": "三聖"
+  },
+  "L13": {
+    "E": "Hanford",
+    "T": "恆福"
+  },
+  "T10": {
+    "E": "Cheung Chau North",
+    "T": "長洲北"
+  },
+  "S19": {
+    "E": "On Ho",
+    "T": "安灝"
+  },
+  "S18": {
+    "E": "Kwai Shing West Estate",
+    "T": "葵盛西邨"
+  },
+  "S13": {
+    "E": "Wah Lai",
+    "T": "華麗"
+  },
+  "S12": {
+    "E": "Kwai Fong",
+    "T": "葵芳"
+  },
+  "S11": {
+    "E": "Tai Pak Tin",
+    "T": "大白田"
+  },
+  "S10": {
+    "E": "Shek Lei",
+    "T": "石籬"
+  },
+  "S17": {
+    "E": "Lai King",
+    "T": "荔景"
+  },
+  "S16": {
+    "E": "Hing Fong",
+    "T": "興芳"
+  },
+  "S15": {
+    "E": "Cho Yiu",
+    "T": "祖堯"
+  },
+  "S14": {
+    "E": "Lai Wah",
+    "T": "荔華"
+  },
+  "M10": {
+    "E": "Ping Shan North",
+    "T": "屏山北"
+  },
+  "K13": {
+    "E": "Luk Yeung",
+    "T": "綠楊"
+  },
+  "K12": {
+    "E": "Tsuen Wan Rural East",
+    "T": "荃灣郊區東"
+  },
+  "H09": {
+    "E": "Tung Mei",
+    "T": "東美"
+  },
+  "K10": {
+    "E": "Lai Hing",
+    "T": "麗興"
+  },
+  "K17": {
+    "E": "Cheung Shek",
+    "T": "象石"
+  },
+  "K16": {
+    "E": "Shek Wai Kok",
+    "T": "石圍角"
+  },
+  "K15": {
+    "E": "Lei Muk Shue West",
+    "T": "梨木樹西"
+  },
+  "K14": {
+    "E": "Lei Muk Shue East",
+    "T": "梨木樹東"
+  },
+  "H03": {
+    "E": "Lung Sheung",
+    "T": "龍上"
+  },
+  "H02": {
+    "E": "Lung Ha",
+    "T": "龍下"
+  },
+  "H01": {
+    "E": "Lung Tsui",
+    "T": "龍趣"
+  },
+  "H07": {
+    "E": "San Po Kong",
+    "T": "新蒲崗"
+  },
+  "H06": {
+    "E": "Lung Sing",
+    "T": "龍星"
+  },
+  "H05": {
+    "E": "Fung Tak",
+    "T": "鳳德"
+  },
+  "H04": {
+    "E": "Fung Wong",
+    "T": "鳳凰"
+  },
+  "M06": {
+    "E": "Fung Cheung",
+    "T": "鳳翔"
+  },
+  "M07": {
+    "E": "Shap Pat Heung North",
+    "T": "十八鄉北"
+  },
+  "M04": {
+    "E": "Pek Long",
+    "T": "北朗"
+  },
+  "M05": {
+    "E": "Yuen Long Centre",
+    "T": "元朗中心"
+  },
+  "M02": {
+    "E": "Shui Pin",
+    "T": "水邊"
+  },
+  "M03": {
+    "E": "Nam Ping",
+    "T": "南屏"
+  },
+  "J18": {
+    "E": "Ping Tin",
+    "T": "平田"
+  },
+  "J19": {
+    "E": "Pak Nga",
+    "T": "栢雅"
+  },
+  "J16": {
+    "E": "Lam Tin",
+    "T": "藍田"
+  },
+  "J17": {
+    "E": "Kwong Tak",
+    "T": "廣德"
+  },
+  "J14": {
+    "E": "Sau Mau Ping South",
+    "T": "秀茂坪南"
+  },
+  "J15": {
+    "E": "Hing Tin",
+    "T": "興田"
+  },
+  "J12": {
+    "E": "Sau Mau Ping North",
+    "T": "秀茂坪北"
+  },
+  "J13": {
+    "E": "Hiu Lai",
+    "T": "曉麗"
+  },
+  "M08": {
+    "E": "Shap Pat Heung South",
+    "T": "十八鄉南"
+  },
+  "M09": {
+    "E": "Ping Shan South",
+    "T": "屏山南"
+  },
+  "Q21": {
+    "E": "Tak Ming",
+    "T": "德明"
+  },
+  "B10": {
+    "E": "Southorn",
+    "T": "修頓"
+  },
+  "B11": {
+    "E": "Tai Fat Hau",
+    "T": "大佛口"
+  },
+  "A15": {
+    "E": "Water Street",
+    "T": "水街"
+  },
+  "A14": {
+    "E": "Centre Street",
+    "T": "正街"
+  },
+  "A11": {
+    "E": "Sai Ying Pun",
+    "T": "西營盤"
+  },
+  "A10": {
+    "E": "Shek Tong Tsui",
+    "T": "石塘咀"
+  },
+  "A13": {
+    "E": "Tung Wah",
+    "T": "東華"
+  },
+  "A12": {
+    "E": "Sheung Wan",
+    "T": "上環"
+  }
+}
