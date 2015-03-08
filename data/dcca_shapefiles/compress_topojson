@@ -1,0 +1,4 @@
+#!/bin/sh
+
+topojson --id-property CACODE -s 5e-10 2011dcca.topojson -o 2011dcca_overview.topojson
+topojson --id-property CACODE -s 1e-18 2011dcca.topojson -o 2011dcca_detail.topojson

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mapshaper -i 2011dcca.geojson -each "DCCODE=CACODE.substr(0,1)" -split DCCODE -o 2011dcca.topojson no-quantization
