@@ -1,63 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-		html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+	<meta charset="utf-8">
+	<title>DC2011 explorer</title>
+	<style>html, body {height: 100%; margin: 0px;}</style>
+	<style>
+	.button-secondary {
+		color: white;
+		border-radius: 4px;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		background: rgb(66, 184, 221); /* this is a light blue */
+	}
 	</style>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHfb-DG5W7pyfl_1vg6cs5DT38XlMTrR0"></script>
-	<script src="http://d3js.org/topojson.v1.min.js"></script>
-	<script src="http://zeptojs.com/zepto.min.js"></script>
-	<script type="text/javascript">
-		function moveTooltip(x, y) {
-			var tooltipDiv = $("#tooltip");
-			tooltipDiv.offset({left: x + 15, top: y + 15});
-		}
-
-		function updateTooltip(text, x, y) {
-			var tooltipDiv = $("#tooltip");
-			tooltipDiv.text(text);
-			if (text == "") {
-				tooltipDiv.hide();
-			} else {
-				tooltipDiv.show();
-			}
-			moveTooltip(x, y);
-		}
-
-		function loadDCCABoundary(map) {
-			var topoJsonUrl = "2011dcca.topojson";
-			var jqxhr = $.getJSON(topoJsonUrl, function(json) {
-				var dccaGeoJson = topojson.feature(json, json.objects["2011dcca"]);
-				map.data.addGeoJson(dccaGeoJson);
-				map.data.setStyle({
-					  strokeWeight: 1.5
-				});
-				map.data.addListener('mouseover', function(event) {
-					var districtName = event.feature.getProperty("CNAME") + " " + event.feature.getProperty("ENAME");
-					updateTooltip(districtName, event.kb.clientX, event.kb.clientY);
-					map.data.overrideStyle(event.feature, {fillColor: 'blue'});
-				});
-				map.data.addListener('mouseout', function(event) {
-					updateTooltip("");
-					map.data.overrideStyle(event.feature, {fillColor: null});
-				});
-			});
-		}
-
-		function initialize() {
-			var mapOptions = {
-				center: { lat: 22.3300, lng: 114.1880},
-				zoom: 11
-			};
-			var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-			loadDCCABoundary(map);
-		}
-		
-		google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHfb-DG5W7pyfl_1vg6cs5DT38XlMTrR0"></script>
 </head>
 <body>
-	<div id="tooltip" style="position: absolute; display: none; z-index: 99; background-color: #FFF; padding: 2px; border-width: 1px; border-style: solid; pointer-events: none;"></div>
-	<div id="map-canvas"></div>
+	<script src="app.js"></script>
 </body>
 </html>
