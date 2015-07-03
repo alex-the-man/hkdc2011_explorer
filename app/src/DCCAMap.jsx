@@ -77,6 +77,29 @@ module.exports = React.createClass({
 			</div>
 		);
 	},
+	latLngToXY: function(latLng) {
+		var numTiles = 1 << this.map.getZoom();
+		var projection = this.map.getProjection();
+		var worldCoordinate = projection.fromLatLngToPoint(latLng);
+		
+		var pixelCoordinate = new google.maps.Point(
+        worldCoordinate.x * numTiles,
+        worldCoordinate.y * numTiles);
+				
+		var topLeft = new google.maps.LatLng(
+			this.map.getBounds().getNorthEast().lat(),
+			this.map.getBounds().getSouthWest().lng()
+		);
+				
+		var topLeftWorldCoordinate = projection.fromLatLngToPoint(topLeft);
+		var topLeftPixelCoordinate = new google.maps.Point(
+        topLeftWorldCoordinate.x * numTiles,
+        topLeftWorldCoordinate.y * numTiles);
+
+		return new google.maps.Point(
+        pixelCoordinate.x - topLeftPixelCoordinate.x,
+        pixelCoordinate.y - topLeftPixelCoordinate.y);
+	},
 	loadDCCAOverlay: function() {
 		var dccaTopoJson = require("json!./data/2011dcca.topojson");
 		this.dccaLayerByDistrct = _.object(this.props.districtCodeList, _.map(this.props.districtCodeList, function(dcCode) {
@@ -95,9 +118,12 @@ module.exports = React.createClass({
 		var districtName = getLocalizedString(this.props.dccaNameMap[districtCaCode]) + " (" + districtCaCode + ")";
 		var orgFillColor = data.getStyle().fillColor;
 		data.overrideStyle(event.feature, {fillColor: tinycolor(orgFillColor).brighten(15)});
+		
+		var mousePosition = this.latLngToXY(event.latLng);
+
 		this.setState({
 			tooltipText: districtName,
-			tooltipPosition: [event.kb.clientX + 15, event.kb.clientY + 15],
+			tooltipPosition: [mousePosition.x, mousePosition.y],
 		});
 	},
 	onMapDataFeatureMouseOut: function(data, event) {
