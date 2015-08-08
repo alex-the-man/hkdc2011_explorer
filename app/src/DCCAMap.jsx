@@ -6,6 +6,9 @@ var React = require("react");
 var AutoHidePanel = require("jsx!./AutoHidePanel.jsx");
 var CheckboxList = require("jsx!./CheckboxList.jsx");
 
+var DistrictNameMap = require("json!./data/districts_name.json");
+var DccaNameMap = require("json!./data/dcca_name.json");
+
 function getLocalizedString(stringsMap) {
 	return stringsMap.T;
 }
@@ -28,15 +31,12 @@ function computeDataStyle(dcCode) {
 
 module.exports = React.createClass({
 	getDefaultProps: function() {
-		var districtNameMap = require("json!./data/districts_name.json");
-		var dccaNameMap = require("json!./data/dcca_name.json");
-		
-		var districtCodeList = _.sortBy(_.keys(districtNameMap), function(dcCode) { return dcCode; });
-		var districtLabelMap = _.mapObject(districtNameMap, function(districtName, dcCode) { return getLocalizedString(districtName) + " (" + dcCode + ")" });
+		var districtCodeList = _.sortBy(_.keys(DistrictNameMap), function(dcCode) { return dcCode; });
+		var districtLabelMap = _.mapObject(DistrictNameMap, function(districtName, dcCode) { return getLocalizedString(districtName) + " (" + dcCode + ")" });
 		
 		return {
-			districtNameMap: districtNameMap,
-			dccaNameMap: dccaNameMap,
+			DistrictNameMap: DistrictNameMap,
+			DccaNameMap: DccaNameMap,
 			districtCodeList: districtCodeList,
 			districtLabelMap: districtLabelMap,
 		};
@@ -115,7 +115,7 @@ module.exports = React.createClass({
 	},
 	onMapDataFeatureMouseOver: function(data, event) {
 		var districtCaCode = event.feature.getId();
-		var districtName = getLocalizedString(this.props.dccaNameMap[districtCaCode]) + " (" + districtCaCode + ")";
+		var districtName = getLocalizedString(this.props.DccaNameMap[districtCaCode]) + " (" + districtCaCode + ")";
 		var orgFillColor = data.getStyle().fillColor;
 		data.overrideStyle(event.feature, {fillColor: tinycolor(orgFillColor).brighten(15)});
 		
@@ -125,10 +125,18 @@ module.exports = React.createClass({
 			tooltipText: districtName,
 			tooltipPosition: [mousePosition.x, mousePosition.y],
 		});
+		
+		if (typeof this.props.onDccaChange === "function") {
+			this.props.onDccaChange(districtCaCode);
+		}
 	},
 	onMapDataFeatureMouseOut: function(data, event) {
 		data.revertStyle(event.feature);
 		this.setState({tooltipText: ""});
+		
+		if (typeof this.props.onDccaChange === "function") {
+			this.props.onDccaChange();
+		}
 	},
 	onDCAreaFilterChanged: function(checkedDistricts) {
 		this.setState({visibleDistrictIds: checkedDistricts});

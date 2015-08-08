@@ -9,8 +9,12 @@ module.exports = React.createClass({
 	},
 	render: function() {
 		var className = this.state.hidden ? "panel autoHideHidden" : "panel autoHideShown";
+		var style = {
+			left: "0px",
+			top: "50%"
+		};
 		return (
-			<div className={className} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
+			<div style={style} className={className} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
 				{this.props.children}
 			</div>
 		);
